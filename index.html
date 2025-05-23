@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>आरोग्यमित्र योगेश चिखले हेल्थ सर्विसेस</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background-color: #f9fdfb;
+      color: #333;
+    }
+    header, nav, section, footer {
+      padding: 20px;
+      text-align: center;
+    }
+    header {
+      background-color: #e6fff5;
+      border-bottom: 3px solid #00b894;
+    }
+    header .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00b894;
+      margin: 10px auto;
+      display: block;
+    }
+    h1, h2 {
+      color: #2d3436;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: #00b894;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background-color: #019875;
+    }
+    .form-input {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .socials a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #00b894;
+      font-size: 24px;
+    }
+    .star-rating span {
+      font-size: 30px;
+      color: gold;
+    }
+    .sample-feedback {
+      text-align: left;
+      max-width: 600px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .sample-feedback p {
+      margin: 5px 0;
+    }
+    .sample-feedback strong {
+      display: block;
+      color: #00b894;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Homepage -->
+  <header id="home">
+    <img src="/mnt/data/BackgroundEraser_20250516_223747541.png" alt="Profile Photo" class="profile-photo">
+    <h1>💚 आरोग्यमित्र योगेश चिखले हेल्थ सर्विसेस</h1>
+    <p>👨‍⚕️ Name: Yogesh Chikhale</p>
+    <p>📞 Mobile: +91 96651 52602</p>
+    <p>📍 Location: Dist. Pune, Tal. Ambegaon, Manchar</p>
+    <button class="btn" onclick="location.href='#register'">Get Insured Now</button>
+  </header>
+
+  <!-- Register Page -->
+  <section id="register">
+    <h2>1⃣️ 💼 Register for Health Assistance</h2>
+    <form action="https://formsubmit.co/ychikhale2010@gmail.com" method="POST">
+      <input class="form-input" type="text" name="Full Name" placeholder="Full Name" required>
+      <input class="form-input" type="tel" name="Mobile Number" placeholder="Mobile Number" required>
+      <input class="form-input" type="email" name="Email" placeholder="Email Address" required>
+      <input class="form-input" type="text" name="Location" placeholder="Location" required>
+      <select class="form-input" name="Service" required>
+        <option value="">Select Required Service</option>
+        <option>Star Health</option>
+        <option>Care Health</option>
+        <option>Life Insurance</option>
+        <option>Government Scheme Help</option>
+      </select>
+      <input type="hidden" name="_next" value="#home">
+      <button class="btn" type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- About Us -->
+  <section id="about">
+    <h2>3⃣️ 👨‍⚕️ About Us</h2>
+    <p><strong>I am Aarogyamitra Yogesh Chikhale.</strong></p>
+    <p><strong>Serving Health, Spreading Hope – For Over 15 Years</strong></p>
+    <p>I am Yogesh Chikhale, a Health Insurance Advisor and Founder-President of Social Help and Health Foundation...</p>
+    <ul style="text-align:left; max-width:600px; margin:auto;">
+      <li>✅ Organizing health camps with local bodies</li>
+      <li>✅ Helping patients through RBSK, CM/PM Relief Funds</li>
+      <li>✅ Certified Advisor for Star, Care & Life Insurance</li>
+      <li>✅ Assistance in claims, policy selection, and more</li>
+    </ul>
+    <p><em>🤝 Not just an agent – your healthcare partner</em></p>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact">
+    <h2>4⃣️ 📱 Contact Us</h2>
+    <p>📞 +91 96651 52602</p>
+    <div class="socials">
+      <a href="https://wa.me/message/X4OFJ2BJ7AFRP1" target="_blank">📱 WhatsApp</a>
+      <a href="https://www.facebook.com/yogesh.chikhale.9" target="_blank">📘 Facebook</a>
+      <a href="https://www.instagram.com/yogesh_chikhale_?igsh=Y2ljaDF3MmNtdHdx&utm_source=ig_contact_invite" target="_blank">📸 Instagram</a>
+    </div>
+  </section>
+
+  <!-- Feedback -->
+  <section id="feedback">
+    <h2>5⃣️ ⭐ Feedback</h2>
+    <form action="https://formsubmit.co/ychikhale2010@gmail.com" method="POST">
+      <input class="form-input" type="text" name="Name" placeholder="Your Name" required>
+      <textarea class="form-input" name="Feedback" placeholder="Your Feedback" required></textarea>
+      <div class="star-rating">⭐⭐⭐⭐⭐</div>
+      <button class="btn" type="submit">Submit Feedback</button>
+    </form>
+    <div class="sample-feedback">
+      <strong>Ravi Shinde</strong>
+      <p>“Great experience! Yogesh sir helped us get treatment through a government scheme. Truly grateful 🙏”</p>
+    </div>
+    <div class="sample-feedback">
+      <strong>Snehal Patil</strong>
+      <p>“Quick and professional support for my health insurance claim. Highly recommend Aarogyamitra services.”</p>
+    </div>
+    <div class="sample-feedback">
+      <strong>Akshay Jadhav</strong>
+      <p>“Thank you for guiding us with the right insurance policy. Your team is doing a wonderful job!”</p>
+    </div>
+  </section>
+
+</body>
+</html>
